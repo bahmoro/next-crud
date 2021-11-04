@@ -21,7 +21,7 @@ export default function Home() {
     <div className=" h-screen w-full">
       <Header></Header>
       <div className={`
-        flex h-full w-full justify-center items-center
+        flex h-3/4 justify-center items-center
         text-white
       `}>
         <Layout titulo="Cadastro Simples">
