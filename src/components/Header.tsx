@@ -4,7 +4,7 @@ export default function Header() {
 
   return(
     <div className=" bg-pink-900 w-full h-20 ">
-        <div className='flex'>
+        <div className=''>
         <Image
               priority
               src="/MY.png"

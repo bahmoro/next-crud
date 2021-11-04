@@ -18,10 +18,10 @@ export default function Home() {
   } = useClientes()
 
   return (
-    <div className=" h-screen bg-gray-50">
+    <div className=" h-screen w-full">
       <Header></Header>
       <div className={`
-        flex h-3/4 justify-center items-center
+        flex h-full w-full justify-center items-center
         text-white
       `}>
         <Layout titulo="Cadastro Simples">
